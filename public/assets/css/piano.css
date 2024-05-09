@@ -1,0 +1,172 @@
+ html,body,div,span,h1,p{margin:0;padding:0;}
+
+ html {
+     background: #fff;
+     font: normal 14px/24px futura, Helvetica, Arial, sans serif;
+     color: #999;
+ }
+ 
+ strong { font-weight: normal; }
+ a { text-decoration: none; }
+ 
+ html, body { height: 100%; }
+ 
+ #content {
+     min-height: 100%;
+     text-align: left;
+     overflow: hidden;
+ }
+ 
+ #content-inner {
+     padding: 20px 0;
+ }
+ 
+ .piano {
+     position: relative;
+     margin: 0 auto;
+     padding: 16px 40px;
+     width: 990px;
+     background: #2c2c2c;
+     border-radius: 20px;
+     box-shadow: 0 1px 0 #999, 0 2px 0 #999, 0 3px 0 #999, 1px 4px 0 #999, 2px 5px 0 #999, 3px 6px 0 #999, 4px 7px 0 #999, 5px 8px 0 #999, 0 0 8px #000;
+     z-index: 2;
+ }
+ 
+  /** keys */
+ .piano.row1 {
+    padding: 35px 40px 16px;
+ }
+ 
+ .piano.row2 .keys {
+    margin: auto;
+    width: 937px;
+ }
+ 
+ .piano.row3 .keys{
+    margin: auto;
+    width: 781px;
+ }
+ 
+.key label{ 
+    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 18px;
+}
+ 
+ .piano .keys {
+     padding: 2px 0 0 2px;
+     overflow: hidden;
+     background: #000;
+     border-radius: 0 0 4px 4px;
+ }
+ 
+.piano #options {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+ .key {
+     float: left;
+     position: relative;
+     width: 50px;
+     height: 180px;
+     margin: 0 2px 2px 0;
+     background: #fff;
+     border-radius: 0 0 4px 4px;
+ }
+ .key.pressed,
+ .key:active {
+     background: #f4f3f3;
+     box-shadow: inset 3px 2px 3px #999, inset -3px 2px 3px #999;
+ }
+ .key.black {
+     width: 0;
+     margin: 0;
+     z-index: 2;
+ }
+ .key.black:after {
+     content: "";
+     position: absolute;
+     top: -2px;
+     left: -16px;
+     display: block;
+     width: 32px;
+     height: 102px;
+     background: #000;
+     border-radius: 0 0 4px 4px;
+     box-shadow: 1px 1px 0 #555, 2px 2px 0 #555;
+     color: #fff;
+     content: attr(data-after);
+     text-align: center;
+     padding-top: 10px;
+ }
+ .key.black1:after {
+     left: -20px;
+ }
+ .key.black3:after {
+     left: -16px;
+ }
+ .key.black.pressed:after,
+ .key.black:active:after {
+     background-color: #454545;
+ }
+
+ .key.active {
+    color: #FFF;
+ }
+
+ .button {
+
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background: #000000;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 200ms, background 200ms;
+  }
+
+  .button:hover{
+    transform: translateY(-2px);
+}
+
+  .button-container {
+    margin: 15px auto;
+    width: 990px;
+  }
+
+  .total-notes {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .key.bass.active {
+    background: rgb(37, 64, 43);
+  }
+ .key.bass.active:after {
+    background: rgb(46, 80, 53);
+  }
+
+  .key.accompaniment.active {
+    background: rgb(78, 158, 95);
+  }
+
+ .key.accompaniment.active:after {
+    background: rgb(87, 172, 105);
+  }
+
+  .key.melody.active {
+    background: rgb(39, 113, 2)
+  }
+
+ .key.melody.active:after {
+    background: rgb(46, 131, 3)
+  }
