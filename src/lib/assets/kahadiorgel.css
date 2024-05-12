@@ -1,0 +1,100 @@
+.waya {
+    border: 1px rgb(0, 0, 0) solid;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.waya.bass {
+    background-color: rgb(37, 64, 43);
+}
+
+.waya.accompaniment {
+    background-color: rgb(78, 158, 95);
+}
+
+.waya.melody {
+    background-color: rgb(39, 113, 2);
+}
+.waya.active {
+    background-color: #de5404!important;
+}
+
+#kwadrant {
+    z-index: 1; top:0
+}
+
+#wijzer {
+    z-index: 2; top:0
+}
+
+button {
+    z-index: 10;
+}
+
+#btn-change,.btn-change {
+    background-color: #fd7e14 !important;
+    color: #fff !important;
+}
+
+/* #btn-outofrange {
+    color: #fff;
+    background-color: #cda11c;
+    border-color: #cda11c;
+} */
+
+.btn-change:hover,
+#btn-change:hover {
+    background-color: #fd7e14 !important;
+    color: #fff !important;
+}
+
+#kwadrant-container img{ width: 450px;}
+
+#sheetCanvas {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.modal-header {
+    background-color: #ddd;
+}
+#measure-number {
+    width: 235px;
+}
+
+body > .card {
+    margin-bottom: 0 !important;
+}
+
+.sheet-section {
+    height: auto;
+}
+
+#sheetCanvas.active {
+    height: 375px;
+}
+
+@media (max-width: 1080px) {
+
+    .sheet-section {
+        height: 320px;
+    }
+
+    #sheetCanvas.active {
+        height: 320px;
+    }
+}
+
+@media (max-width: 720px) {
+    .sheet-section {
+        height: 460px;
+    }
+
+    #sheetCanvas.active {
+        height: 400px;
+    }
+}
+
+.note-label-container > div {
+    font-size: 15px;
+  }

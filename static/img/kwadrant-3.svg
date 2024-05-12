@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="511pt" height="511pt" viewBox="0 0 511 511">
+<defs>
+<clipPath id="clip_0">
+<path transform="matrix(0,-1,-1,-0,702,563)" d="M0 0H612V792H0Z"/>
+</clipPath>
+<clipPath id="clip_1">
+<path transform="matrix(0,-.12,-.12,-0,652,547)" d="M0 819H4826V5759H0V819"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(0,-.12,-.12,-0,652,547)" d="M0 819H4826V5759H0V819"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_0)">
+<g clip-path="url(#clip_1)">
+<g id="layer_1" data-name="">
+<path transform="matrix(0,-.12,-.12,-0,652,547)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M4263 4364 2427 3304V1185"/>
+<path transform="matrix(0,-.12,-.12,-0,652,547)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M4515 2936 2427 3304 591 4364"/>
+<path transform="matrix(0,-.12,-.12,-0,652,547)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M1702 5296 2427 3304 3152 5296"/>
+<path transform="matrix(0,-.12,-.12,-0,652,547)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M1065 1681 2427 3304 340 2936"/>
+<path transform="matrix(0,-.12,-.12,-0,652,547)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M2855 1500 2427 3304 3790 1681"/>
+<path transform="matrix(0,-.12,-.12,-0,652,547)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M3915 2197 2427 3304 3259 1647"/>
+<path transform="matrix(0,-.12,-.12,-0,652,547)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M4279 3412 2427 3304 4130 2570"/>
+<path transform="matrix(0,-.12,-.12,-0,652,547)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M3776 4577 2427 3304 4204 3836"/>
+<path transform="matrix(0,-.12,-.12,-0,652,547)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M2642 5147 2427 3304 3446 4854"/>
+<path transform="matrix(0,-.12,-.12,-0,652,547)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M1408 4854 2427 3304 2212 5147"/>
+<path transform="matrix(0,-.12,-.12,-0,652,547)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M650 3836 2427 3304 1078 4577"/>
+<path transform="matrix(0,-.12,-.12,-0,652,547)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M724 2570 2427 3304 575 3412"/>
+<path transform="matrix(0,-.12,-.12,-0,652,547)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M1595 1647 2427 3304 939 2197"/>
+<path transform="matrix(0,-.12,-.12,-0,652,547)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M2427 3304 1999 1500"/>
+<path transform="matrix(0,-.12,-.12,-0,652,547)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M4515 2936 4279 3412 4204 3836 4263 4364 3776 4577 3446 4854 3152 5296 2642 5147H2212L1702 5296 1408 4854 1078 4577 591 4364 650 3836 575 3412 340 2936 724 2570 939 2197 1065 1681 1595 1647 1999 1500 2427 1185 2855 1500 3259 1647 3790 1681 3915 2197 4130 2570 4515 2936"/>
+<path transform="matrix(.12,0,0,-.12,255.46002,255.70001)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M2119.5 0C2119.5 1170.5676 1170.5676 2119.5 0 2119.5-1170.5676 2119.5-2119.5 1170.5676-2119.5 0-2119.5-1170.5676-1170.5676-2119.5 0-2119.5 1170.5676-2119.5 2119.5-1170.5676 2119.5 0"/>
+</g>
+</g>
+<g clip-path="url(#clip_2)">
+<g id="layer_1" data-name="">
+<text xml:space="preserve" transform="matrix(.12 0 0 .12 652 547)" font-size="197.412" font-family="ArialMT"><tspan y="-2452" x="-1459">B</tspan></text>
+</g>
+</g>
+</g>
+</svg>
