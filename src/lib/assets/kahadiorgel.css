@@ -36,6 +36,14 @@ button {
     color: #fff !important;
 }
 
+.button-container .row {
+    margin-bottom: -2px;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
 /* #btn-outofrange {
     color: #fff;
     background-color: #cda11c;
@@ -71,7 +79,7 @@ body > .card {
 }
 
 #sheetCanvas.active {
-    height: 375px;
+    height: 500px;
 }
 
 @media (max-width: 1080px) {

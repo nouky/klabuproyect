@@ -1,10 +1,11 @@
 <script lang="ts">
 	import * as OSMD from 'opensheetmusicdisplay';
+	import NotesOutofRange from './NotesOutofRange.svelte';
 	import SongXmlList from './SongXmlList.svelte';
 	export let osmd: OSMD.OpenSheetMusicDisplay;
 	export let isSheetLoaded;
 
-	console.log('Sheet is loaded:' + isSheetLoaded);
+	let sheetClass = isSheetLoaded ? 'active' : '';
 
 	const onLoadSheet = (evt) => {
 		let file = evt.target.files[0]; // FileList object
@@ -21,6 +22,7 @@
 						osmd.render();
 						osmd.cursor.show(); // this would show the cursor on the first note
 						isSheetLoaded = true;
+						sheetClass = 'active';
 					})
 					.catch((err) => {
 						console.error(err);
@@ -38,6 +40,7 @@
 </script>
 
 {#if !isSheetLoaded}
+	<NotesOutofRange />
 	<div class="col-12 d-flex justify-content-center">
 		<div id="inputfileContainer" class="col-6 mt-5">
 			<label for="loadSheet" class="form-label">Select your XML Sheet</label>
@@ -52,4 +55,4 @@
 		</div>
 	</div>
 {/if}
-<div id="sheetCanvas"></div>
+<div id="sheetCanvas" class={sheetClass}></div>
