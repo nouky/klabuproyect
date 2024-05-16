@@ -4,9 +4,7 @@
 	export let osmd: OSMD.OpenSheetMusicDisplay;
 	export let isSheetLoaded;
 
-	console.log('Sheet is loaded:' + isSheetLoaded);
-
-	const onLoadSheet = (evt) => {
+	const OnLoadSheetFile = (evt) => {
 		let file = evt.target.files[0]; // FileList object
 
 		if (!file.name.match('.*.xml') && !file.name.match('.*.musicxml')) {
@@ -20,7 +18,6 @@
 					.then(function () {
 						osmd.render();
 						osmd.cursor.show(); // this would show the cursor on the first note
-						isSheetLoaded = true;
 					})
 					.catch((err) => {
 						console.error(err);
@@ -37,19 +34,23 @@
 	};
 </script>
 
+<span id="measure-number" class="absolute"></span>
+<div>
+	<div id="sheetCanvas" class="bg-white max-h-[865px] overflow-auto"></div>
+</div>
+
 {#if !isSheetLoaded}
-	<div class="col-12 d-flex justify-content-center">
-		<div id="inputfileContainer" class="col-6 mt-5">
-			<label for="loadSheet" class="form-label">Select your XML Sheet</label>
+	<div class="justify-content-center">
+		<label class="label">
+			<span> Select your XML Sheet </span>
 			<input
-				class="form-control form-control-sm"
+				class="input"
 				id="selectSheet"
 				type="file"
 				accept=".xml, .musicxml"
-				on:change={onLoadSheet}
+				on:change={OnLoadSheetFile}
 			/>
-			<SongXmlList />
-		</div>
+		</label>
+		<SongXmlList />
 	</div>
 {/if}
-<div id="sheetCanvas"></div>
